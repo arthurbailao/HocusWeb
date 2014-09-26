@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  uid: 
+  technology: 
+  type: 
+  manufacturer: MyString
+
+two:
+  uid: 
+  technology: 
+  type: 
+  manufacturer: MyString
