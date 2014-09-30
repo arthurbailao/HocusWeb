@@ -29,7 +29,7 @@ module V1
         resource :product do
           get do
             tag = Tag.where(uid: params[:uid], rid: params[:rid]).first
-            error!('fake tag', 422) unless tag
+            error!('fake tag', 200) unless tag
             tag.product
           end
         end
