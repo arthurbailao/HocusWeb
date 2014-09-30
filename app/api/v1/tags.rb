@@ -4,10 +4,10 @@ module V1
     format :json
 
     resource :tags do
-      desc "Return list of tags"
-      get do
-        Tag.all
-      end
+      # desc "Return list of tags"
+      # get do
+      #   Tag.all
+      # end
 
       desc "Create a tag"
       post do
