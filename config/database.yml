@@ -24,10 +24,17 @@ test:
   username: root
   password:
 
+# production:
+#   <<: *default
+#   host: hocus.cobvaboe4pwz.us-east-1.rds.amazonaws.com
+#   port: 3306
+#   database: hocus
+#   username: hocususer
+#   password: arthur.com.br
+
 production:
   <<: *default
-  host: hocus.cobvaboe4pwz.us-east-1.rds.amazonaws.com
-  port: 3306
+  host: localhost
   database: hocus
-  username: hocususer
-  password: arthur.com.br
+  username: root
+  password: 
